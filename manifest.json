@@ -1,17 +1,38 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Reddit load images directly",
     "version": "1.0",
-    "description": "Reddit load images directly by modifying request headers",
     "author": "MonsterMannen",
+    "description": "Reddit load images directly by modifying request headers",
     "permissions": [
-        "webRequest",
-        "webRequestBlocking",
-        "*://i.redd.it/*",
-        "*://external-preview.redd.it/*",
-        "*://preview.redd.it/*"
+        "declarativeNetRequest", 
+        "declarativeNetRequestWithHostAccess", 
+        "declarativeNetRequestFeedback",
+        "scripting",
+        "activeTab"
     ],
-    "background": {
-        "scripts": ["background.js"]
+    "host_permissions": [
+        "https://preview.redd.it/*",
+        "https://i.redd.it/*",
+        "https://external-preview.redd.it/*"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "rule_external_preview_redd",
+                "path": "rule_external_preview_redd.json",
+                "enabled": true
+            },
+            {
+                "id": "rule_i_redd",
+                "path": "rule_i_redd.json",
+                "enabled": true
+            },
+            {
+                "id": "rule_preview_redd",
+                "path": "rule_preview_redd.json",
+                "enabled": true
+            }
+        ]
     }
 }

@@ -10,4 +10,4 @@ To this:
 
 ---
 
-Rewritten chrome version based on the firefox extension by [nopperl](https://github.com/nopperl/load-reddit-images-directly)
+Completely rewritten chrome version using manifest v3, based on the firefox extension by [nopperl](https://github.com/nopperl/load-reddit-images-directly)
