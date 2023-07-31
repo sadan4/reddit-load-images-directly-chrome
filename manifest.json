@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Reddit load images directly",
+    "version": "1.0",
+    "description": "Reddit load images directly by modifying request headers",
+    "author": "MonsterMannen",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://i.redd.it/*",
+        "*://external-preview.redd.it/*",
+        "*://preview.redd.it/*"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
