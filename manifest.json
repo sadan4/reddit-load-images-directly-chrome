@@ -20,17 +20,17 @@
         "rule_resources": [
             {
                 "id": "rule_external_preview_redd",
-                "path": "rule_external_preview_redd.json",
+                "path": "rules/rule_external_preview_redd.json",
                 "enabled": true
             },
             {
                 "id": "rule_i_redd",
-                "path": "rule_i_redd.json",
+                "path": "rules/rule_i_redd.json",
                 "enabled": true
             },
             {
                 "id": "rule_preview_redd",
-                "path": "rule_preview_redd.json",
+                "path": "rules/rule_preview_redd.json",
                 "enabled": true
             }
         ]
