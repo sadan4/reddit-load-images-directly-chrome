@@ -5,11 +5,7 @@
     "author": "MonsterMannen",
     "description": "Reddit load images directly by modifying request headers",
     "permissions": [
-        "declarativeNetRequest", 
-        "declarativeNetRequestWithHostAccess", 
-        "declarativeNetRequestFeedback",
-        "scripting",
-        "activeTab"
+        "declarativeNetRequest"
     ],
     "host_permissions": [
         "https://preview.redd.it/*",
