@@ -2,6 +2,12 @@
 
 Chrome extension to bypass reddits annoying page when viewing images.
 
+# Download the extension for Chrome
+
+[Link](https://chrome.google.com/webstore/detail/reddit-load-images-direct/fpimmmjbglpnlpbfikgekaaeinminolo/)
+
+# How it looks
+
 From this:  
 ![](https://i.imgur.com/V1PFeHh.png)
 
