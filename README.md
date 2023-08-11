@@ -1,4 +1,12 @@
-<a href="https://chrome.google.com/webstore/detail/reddit-load-images-direct/fpimmmjbglpnlpbfikgekaaeinminolo" target="_blank" rel="noreferrer noopener"><img alt="store pic" src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png"></a>
+<p align="center">
+  <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/rating/fpimmmjbglpnlpbfikgekaaeinminolo">
+  <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/rating-count/fpimmmjbglpnlpbfikgekaaeinminolo">
+  <img alt="Chrome Web Store Users" src="https://img.shields.io/chrome-web-store/users/fpimmmjbglpnlpbfikgekaaeinminolo">
+
+  <br>
+  <a href="https://chrome.google.com/webstore/detail/reddit-load-images-direct/fpimmmjbglpnlpbfikgekaaeinminolo" target="_blank" rel="noreferrer noopener"><img alt="store pic" src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png"></a>
+  <br><br>
+</p>
 
 # Load Reddit Images Directly
 
