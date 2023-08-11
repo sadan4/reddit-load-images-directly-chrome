@@ -1,10 +1,12 @@
+<a href="https://chrome.google.com/webstore/detail/reddit-load-images-direct/fpimmmjbglpnlpbfikgekaaeinminolo" target="_blank" rel="noreferrer noopener"><img alt="store pic" src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png"></a>
+
 # Load Reddit Images Directly
 
 Chrome extension to bypass reddits annoying page when viewing images.
 
 ### Download the extension for Chrome
 
-[Link](https://chrome.google.com/webstore/detail/reddit-load-images-direct/fpimmmjbglpnlpbfikgekaaeinminolo/)
+Click the image above :-D
 
 ### What it does
 
