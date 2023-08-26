@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Reddit load images directly",
-    "version": "1.1.0",
+    "version": "1.2.1",
     "description": "Reddit load images in new tabs directly (bypass reddit image preview page)",
     "author": "MonsterMannen",
     "icons": {
@@ -15,7 +15,8 @@
     "host_permissions": [
         "https://preview.redd.it/*",
         "https://i.redd.it/*",
-        "https://external-preview.redd.it/*"
+        "https://external-preview.redd.it/*",
+        "*://*.reddit.com/*"
     ],
     "declarative_net_request": {
         "rule_resources": [
@@ -32,6 +33,11 @@
             {
                 "id": "rule_preview_redd",
                 "path": "rules/rule_preview_redd.json",
+                "enabled": true
+            },
+            {
+                "id": "rule_reddit",
+                "path": "rules/rule_reddit.json",
                 "enabled": true
             }
         ]
