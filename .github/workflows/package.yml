@@ -40,7 +40,8 @@ jobs:
           echo $KEY > $TEMP
           npx crx pack -o reddit-load-images-directly-chrome.crx -p $TEMP
         env:
-          GH_TOKEN: ${{ secrets.KEY }}
+          KEY: ${{ secrets.KEY }}
+          
       - name: GH Release
         # uses: softprops/action-gh-release@69320dbe05506a9a39fc8ae11030b214ec2d1f87
         uses:  softprops/action-gh-release@v2.0.5
