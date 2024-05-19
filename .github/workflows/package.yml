@@ -36,15 +36,12 @@ jobs:
       - name: package
         run: |
           cd $GITHUB_WORKSPACE
-          TEST2=$(mktemp)
-          echo $TEST > $TEST2
-          >&2 echo $(cat $TEST2)
           TEMP=$(mktemp)
-          echo $KEY > $TEMP
+          printf "%s" "$KEY" > $TEMP
+          cat $TEMP
           npx crx pack -o reddit-load-images-directly-chrome.crx -p $TEMP
         env:
           KEY: ${{ secrets.KEY }}
-          TEST: ${{ secrets.TEST }}
           
       - name: GH Release
         # uses: softprops/action-gh-release@69320dbe05506a9a39fc8ae11030b214ec2d1f87
