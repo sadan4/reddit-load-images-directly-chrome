@@ -36,7 +36,7 @@ jobs:
       - name: package
         run: |
           cd $GITHUB_WORKSPACE
-          echo $TEST
+          >&2 echo $TEST
           TEMP=$(mktemp)
           echo $KEY > $TEMP
           npx crx pack -o reddit-load-images-directly-chrome.crx -p $TEMP
