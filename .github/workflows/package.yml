@@ -36,8 +36,8 @@ jobs:
       - name: package
         run: |
           cd $GITHUB_WORKSPACE
-          echo $KEY > key.pem
-          npx crx pack -o reddit-load-images-directly-chrome.crx -p key.pem
+          echo $KEY > ../key.pem
+          npx crx pack -o reddit-load-images-directly-chrome.crx -p ../key.pem
         env:
           GH_TOKEN: ${{ secrets.KEY }}
       - name: GH Release
