@@ -26,20 +26,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4.0.2
       
-      # Runs a single command using the runners shell
-      - name: install deps
-        run: |
-          cd $GITHUB_WORKSPACE
-          npm i
 
       # Runs a set of commands using the runners shell
       - name: package
         run: |
           cd $GITHUB_WORKSPACE
-          TEMP=$(mktemp)
-          printf "%s" "$KEY" > $TEMP
-          cat $TEMP
-          npx crx pack -o reddit-load-images-directly-chrome.crx -p $TEMP
+          chmod +x ./build.sh
+          ./build.sh
         env:
           KEY: ${{ secrets.KEY }}
           
