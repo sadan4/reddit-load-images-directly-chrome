@@ -6,6 +6,9 @@ const path = require("path");
 
 const crx = require('crx');
 
+if (process.env.KEY == ""){
+    throw "KEY IS EMPTY";
+}
 const c = new crx({
     privateKey: process.env.KEY,
     codebase: "https://example.com/update.crx"
