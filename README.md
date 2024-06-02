@@ -1,9 +1,5 @@
 ### I forked this because the old one appeared to have been hijacked and the github was not updated for the newer verison
-<p align="center">
-  <img alt="stats" src="https://i.imgur.com/vAmDmOh.png">
-  <br><br>
-</p>
-
+### update 6/1/24: it looks like the original author's github account was terminated/deleted
 # Load Reddit Images Directly
 
 Chrome extension to bypass reddits annoying page when viewing images.
